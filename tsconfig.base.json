@@ -15,7 +15,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@t-zander/data": ["libs/data/src/index.ts"],
+      "@t-zander/ui": ["libs/ui/src/index.ts"],
+      "@t-zander/just-test": ["libs/just-test/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
